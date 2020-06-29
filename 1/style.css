@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	 height: 100vh;
+	 background-size: cover;
+	 background-position: center;
+}
+
+
+
+
+ul{
+    text-align: right;
+	/* float: right; */
+	list-style-type: none;
+	margin-top: 15px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: red;
+	padding: 2px 30px;
+	
+	
+}
+
+ul li a:hover{
+	background-color: white;
+	color: red;
+}
+
+.main {
+	max-width: 1300px;
+	margin: auto;
+}
+
+
+
+.head {
+	position: center;
+	padding: 10px;
+  text-align: center;
+   background: #000000;
+  color: white;
+  font-size: 30px;
+}
+
+.tbb{
+	
+	text-align: center;
+	margin-left: -100px;
+	margin-top: -20px;
+	
+}
+
+.ph{
+	margin-left: 400px;
+}
+
+
+.pic{
+	float: left;
+	
+	
+
+}
+
+
+.myresume{
+	text-align: center;
+	position: center;
+}
+.re {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.quote{
+	quotes: """ """;
+}
+
+.series{
+
+text-align: 300px;
+	
+}
+	
+	ol{
+    list-style-position: inside;
+}
+ol li{
+    text-align: center;
+}
+    
+mark{
+	background-color: pink;
+	color: black;
+	
+}
+
+.bg{
+	font-weight: bold;
+	color: pink;
+}
+.cs{
+	text-align: left;
+}
+	
+	ul li:first-child { float: left; }
+	
+.al{
+	margin-right: -80px;
+}
+
+table {
+	width: 60%;
+    table-layout: fixed;
+	border-collapse: collapse;
+    border-style: double;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+table td, table th {
+  border: 1px solid black;
+  padding: 8px;
+  border-style:double;
+  text-align: center;
+}
+
+table thead {
+	background-color: #fefbd8;
+}
+
+table tr:nth-child(even){background-color: coral;}
+section {
+	padding: 25px 10px;
+	border-bottom: 1px solid coral;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.Excss{
+	text-align: center;
+}
+
